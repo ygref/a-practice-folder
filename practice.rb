@@ -20,18 +20,28 @@
 # index += 1
 # end
 
-array = ["hello", "there",]
+# array = ["hello", "there",]
 
-array.push("General", "Kenobi")
-puts array
-pp array
+# array.push("General", "Kenobi")
+# puts array
+# pp array
 
-sentence = ""
+# sentence = ""
+# index = 0
+
+# while index < array.length
+#   sentence << array[index]+" "
+# index += 1
+# end
+
+# p sentence
+
+array = [1, 2, 3, 4, 5]
 index = 0
-
+new_array =[]
 while index < array.length
-  sentence << array[index]+" "
+new_array << array[index]
+
 index += 1
 end
-
-p sentence
+pp new_array.reverse
