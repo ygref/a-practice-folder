@@ -39,25 +39,41 @@
 # Start with an array of numbers and create a new array with only the numbers less than 20.
 # For example, [2, 32, 80, 18, 12, 3] becomes [2, 18, 12, 3].
 
-array = [2, 32, 80, 18, 12, 3] 
-new_array = []
-index = 0 
+# array = [2, 32, 80, 18, 12, 3] 
+# new_array = []
+# index = 0 
 
-while index < array.length
-number = array[index]
-if number < 20
-  new_array << number
-end
-index = index + 1
-end
+# while index < array.length
+# number = array[index]
+# if number < 20
+#   new_array << number
+# end
+# index = index + 1
+# end
 
-pp new_array
-array = [1, 2, 3, 4, 5]
+# pp new_array
+# array = [1, 2, 3, 4, 5]
+# index = 0
+# new_array =[]
+# while index < array.length
+# new_array << array[index]
+
+# index += 1
+# end
+# pp new_array.reverse
+
+# Start with an array of strings and create a new array with only the strings that start with the letter "w".
+# For example, ["winner", "winner", "chicken", "dinner"] becomes ["winner", "winner"].
+
+array = ["winner", "winner", "chicken", "dinner"]
 index = 0
-new_array =[]
-while index < array.length
-new_array << array[index]
+new_array = []
 
+while index < array.length
+  if array[index][0] == "w"
+    new_array << array[index]
+
+  end
 index += 1
 end
-pp new_array.reverse
+pp new_array
