@@ -1,7 +1,7 @@
 # while true
 #   puts "Enter a word"
-# input = gets.chomp 
-# if input == "stop" 
+# input = gets.chomp
+# if input == "stop"
 #   break
 # end
 # end
@@ -20,18 +20,35 @@
 # index += 1
 # end
 
-array = ["hello", "there",]
+# array = ["hello", "there",]
 
-array.push("General", "Kenobi")
-puts array
-pp array
+# array.push("General", "Kenobi")
+# puts array
+# pp array
 
-sentence = ""
-index = 0
+# sentence = ""
+# index = 0
+
+# while index < array.length
+#   sentence << array[index]+" "
+# index += 1
+# end
+
+# p sentence
+
+# Start with an array of numbers and create a new array with only the numbers less than 20.
+# For example, [2, 32, 80, 18, 12, 3] becomes [2, 18, 12, 3].
+
+array = [2, 32, 80, 18, 12, 3] 
+new_array = []
+index = 0 
 
 while index < array.length
-  sentence << array[index]+" "
-index += 1
+number = array[index]
+if number < 20
+  new_array << number
+end
+index = index + 1
 end
 
-p sentence
+pp new_array
