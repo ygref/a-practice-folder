@@ -65,15 +65,23 @@
 # Start with an array of strings and create a new array with only the strings that start with the letter "w".
 # For example, ["winner", "winner", "chicken", "dinner"] becomes ["winner", "winner"].
 
-array = ["winner", "winner", "chicken", "dinner"]
-index = 0
+# array = ["winner", "winner", "chicken", "dinner"]
+# index = 0
+# new_array = []
+
+# while index < array.length
+#   if array[index][0] == "w"
+#     new_array << array[index]
+
+#   end
+# index += 1
+# end
+# pp new_array
+
+
+# Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
+# For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
+
+arrayofhashes = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
 new_array = []
-
-while index < array.length
-  if array[index][0] == "w"
-    new_array << array[index]
-
-  end
-index += 1
-end
-pp new_array
+index = 0 
