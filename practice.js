@@ -4,6 +4,8 @@
 //   number = number + 5;
 // }
 
+const { endpoint } = require("mtgsdk/src/config");
+
 // var count = 0;
 // while (count <= 144) {
 //   console.log("Around the world");
@@ -20,3 +22,7 @@
 //   sentence += array[index] + " ";
 // }
 // console.log(sentence + "!");
+
+// const numbers = [2, 4, 5, 1, 8, 9, 7];
+// var evenNumbers = [];
+// index = 0;
