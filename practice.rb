@@ -171,8 +171,16 @@ original_array = [1, 2, 3, 4, 5]
 
 # Write a method that takes in a string and returns the string with all capital letters. Then run the method and print the result.
 
-def caps(string)
-  string.upcase
+# def caps(string)
+#   string.upcase
+# end
+
+# p caps("small")
+
+# Write a method that takes in two numbers and returns the first number subtracted by the second. Then run the method and print the result.
+
+def subtract(first, second)
+  first - second
 end
 
-p caps("small")
+p subtract(12, 1)
