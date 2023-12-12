@@ -187,8 +187,22 @@ original_array = [1, 2, 3, 4, 5]
 
 # Write a method that takes in a number and returns the number times itself. Then run the method and print the result.
 
-def squared(number)
-  number * number
+# def squared(number)
+#   number * number
+# end
+
+# p squared(4)
+
+# Write a method that takes in a string and returns the first letter of the string. Then run the method and print the result.
+
+def first(string)
+  string[0]
 end
 
-p squared(4)
+p first("WHAT?")
+
+def last(string)
+  string[-1]
+end
+
+p last("WHAT?")
