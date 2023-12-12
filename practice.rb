@@ -151,12 +151,20 @@ original_array = [1, 2, 3, 4, 5]
 
 # puts reverse(original_array)
 
-def reverse(array)
-  reversed_numbers = []
-  array.reverse_each do |number|
-    reversed_numbers << number
-  end
-  reversed_numbers
+# def reverse(array)
+#   reversed_numbers = []
+#   array.reverse_each do |number|
+#     reversed_numbers << number
+#   end
+#   reversed_numbers
+# end
+
+# puts reverse(original_array)
+
+# Write a method that takes in a number and returns the number times two. Then run the method and print the result.
+
+def times(number)
+  return number * 2
 end
 
-puts reverse(original_array)
+p times(2)
