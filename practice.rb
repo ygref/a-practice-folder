@@ -163,8 +163,16 @@ original_array = [1, 2, 3, 4, 5]
 
 # Write a method that takes in a number and returns the number times two. Then run the method and print the result.
 
-def times(number)
-  return number * 2
+# def times(number)
+#   return number * 2
+# end
+
+# p times(2)
+
+# Write a method that takes in a string and returns the string with all capital letters. Then run the method and print the result.
+
+def caps(string)
+  string.upcase
 end
 
-p times(2)
+p caps("small")
