@@ -33,19 +33,19 @@ const { endpoint } = require("mtgsdk/src/config");
 // If the age is between 13 and 59 years old and the movie is before 6 PM, the ticket price is $7. After 6 PM, the ticket price is $10.
 // If the customer is 60 years old or older, the ticket price is $7.
 
-var customerAge = 60;
-var movieTime = 8;
-var ticketPrice;
+// var customerAge = 60;
+// var movieTime = 8;
+// var ticketPrice;
 
-if (customerAge <= 12) {
-  ticketPrice = 5;
-} else if (customerAge >= 13 && customerAge <= 59) {
-  if (movieTime < 18) {
-    ticketPrice = 7;
-  } else {
-    ticketPrice = 10;
-  }
-} else if (customerAge >= 60) {
-  ticketPrice = 7;
-}
-console.log(ticketPrice);
+// if (customerAge <= 12) {
+//   ticketPrice = 5;
+// } else if (customerAge >= 13 && customerAge <= 59) {
+//   if (movieTime < 18) {
+//     ticketPrice = 7;
+//   } else {
+//     ticketPrice = 10;
+//   }
+// } else if (customerAge >= 60) {
+//   ticketPrice = 7;
+// }
+// console.log(ticketPrice);

@@ -39,9 +39,9 @@
 # Start with an array of numbers and create a new array with only the numbers less than 20.
 # For example, [2, 32, 80, 18, 12, 3] becomes [2, 18, 12, 3].
 
-# array = [2, 32, 80, 18, 12, 3] 
+# array = [2, 32, 80, 18, 12, 3]
 # new_array = []
-# index = 0 
+# index = 0
 
 # while index < array.length
 # number = array[index]
@@ -78,18 +78,17 @@
 # end
 # pp new_array
 
-
 # Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
 # For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
 
 # arrayofhashes = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
 # new_array = []
-# index = 0 
+# index = 0
 
 # while index < arrayofhashes.length
 #   item = arrayofhashes[index]
 #   if item[:price] > 5
-#     new_array << item 
+#     new_array << item
 #   end
 # index = index + 1
 # end
@@ -110,14 +109,11 @@
 # end
 # p even_numbers
 
-
 # def add_my_numbers
 #   var x = 9
-#    var x + 1 
+#    var x + 1
 #   end
-  
-  
-  
+
 #   p add_my_numbers
 
 # Write a program that stores a customer's age and a movie's time in two separate variables. Then calculate the price of a movie ticket based on the following conditions:
@@ -126,21 +122,41 @@
 # If the age is between 13 and 59 years old and the movie is before 6 PM, the ticket price is $7. After 6 PM, the ticket price is $10.
 # If the customer is 60 years old or older, the ticket price is $7.
 
+# customer_age = 13
+# movie_time = 19
 
-customer_age = 13
-movie_time = 19
+# if customer_age <= 12
+#   ticket_price = 5
+# elsif customer_age >= 13 && customer_age <= 59
+#   if movie_time > 18
+#   ticket_price = 7
+#   else ticket_price = 10
+#   end
+# elsif customer_age == 60
+#   ticket_price = 10
+# end
 
-if customer_age <= 12 
-  ticket_price = 5
-elsif customer_age >= 13 && customer_age <= 59
-  if movie_time > 18
-  ticket_price = 7
-  else ticket_price = 10
+# puts ticket_price
+original_array = [1, 2, 3, 4, 5]
+# reversed_array = reverse_array(original_array)
+# reversed_array should be [5, 4, 3, 2, 1]
+
+# def reverse(array)
+#   reversed_numbers = []
+#   array.each do |number|
+#     reversed_numbers << number
+#   end
+#   reversed_numbers
+# end
+
+# puts reverse(original_array)
+
+def reverse(array)
+  reversed_numbers = []
+  array.reverse_each do |number|
+    reversed_numbers << number
   end
-elsif customer_age == 60
-  ticket_price = 10
+  reversed_numbers
 end
 
-
-
-puts ticket_price
+puts reverse(original_array)
