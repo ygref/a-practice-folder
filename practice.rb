@@ -179,8 +179,16 @@ original_array = [1, 2, 3, 4, 5]
 
 # Write a method that takes in two numbers and returns the first number subtracted by the second. Then run the method and print the result.
 
-def subtract(first, second)
-  first - second
+# def subtract(first, second)
+#   first - second
+# end
+
+# p subtract(12, 1)
+
+# Write a method that takes in a number and returns the number times itself. Then run the method and print the result.
+
+def squared(number)
+  number * number
 end
 
-p subtract(12, 1)
+p squared(4)
