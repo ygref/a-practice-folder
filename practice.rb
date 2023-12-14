@@ -209,8 +209,18 @@ original_array = [1, 2, 3, 4, 5]
 
 # Write a method that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the method and print the result.
 
-def three_string(string1, string2, string3)
-  return string1 + " " + string2 + " " + string3
+# def three_string(string1, string2, string3)
+#   return string1 + " " + string2 + " " + string3
+# end
+
+# puts three_string("hi", "hello", "world")
+
+# Write a method that takes in a number and returns the number as a string. Then run the method and print the result.
+
+def stringify(number)
+  return number.to_s
 end
 
-puts three_string("hi", "hello", "world")
+puts stringify(10)
+
+puts stringify(10).class
