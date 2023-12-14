@@ -217,10 +217,27 @@ original_array = [1, 2, 3, 4, 5]
 
 # Write a method that takes in a number and returns the number as a string. Then run the method and print the result.
 
-def stringify(number)
-  return number.to_s
+# def stringify(number)
+#   return number.to_s
+# end
+
+# puts stringify(10)
+
+# puts stringify(10).class
+
+# Write a method that takes in a string and returns the string repeated 5 times. Then run the method and print the result.
+
+# def times_five(string)
+#   return string * 5
+# end
+
+# puts times_five("Five!")
+# pp times_five("Five!")
+
+# Write a method that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the method and print the result.
+
+def average(number1, number2, number3)
+  return (number1 + number2 + number3) / 3.0
 end
 
-puts stringify(10)
-
-puts stringify(10).class
+puts average(100, 50, 75)
