@@ -195,14 +195,22 @@ original_array = [1, 2, 3, 4, 5]
 
 # Write a method that takes in a string and returns the first letter of the string. Then run the method and print the result.
 
-def first(string)
-  string[0]
+# def first(string)
+#   string[0]
+# end
+
+# p first("WHAT?")
+
+# def last(string)
+#   string[-1]
+# end
+
+# p last("WHAT?")
+
+# Write a method that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the method and print the result.
+
+def three_string(string1, string2, string3)
+  return string1 + " " + string2 + " " + string3
 end
 
-p first("WHAT?")
-
-def last(string)
-  string[-1]
-end
-
-p last("WHAT?")
+puts three_string("hi", "hello", "world")
