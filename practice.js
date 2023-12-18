@@ -49,3 +49,10 @@ const { endpoint } = require("mtgsdk/src/config");
 //   ticketPrice = 7;
 // }
 // console.log(ticketPrice);
+
+// Write a method that takes in a number and returns the number times two. Then run the method and print the result.
+
+function getDouble(number) {
+  return number * 2;
+}
+console.log(getDouble(8));
