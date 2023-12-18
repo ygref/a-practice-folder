@@ -52,7 +52,14 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // Write a method that takes in a number and returns the number times two. Then run the method and print the result.
 
-function getDouble(number) {
-  return number * 2;
+// function getDouble(number) {
+//   return number * 2;
+// }
+// console.log(getDouble(8));
+
+// Write a method that takes in a string and returns the string with all capital letters. Then run the method and print the result.
+
+function makeCaps(string) {
+  return string.toUpperCase();
 }
-console.log(getDouble(8));
+console.log(makeCaps("lowercase"));
