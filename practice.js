@@ -66,7 +66,14 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // Write a method that takes in two numbers and returns the first number subtracted by the second. Then run the method and print the result.
 
-function subtract(number1, number2) {
-  return number1 - number2;
+// function subtract(number1, number2) {
+//   return number1 - number2;
+// }
+// console.log(subtract(10, 5));
+
+// Write a method that takes in a number and returns the number times itself. Then run the method and print the result.
+
+function squared(number) {
+  return number * number;
 }
-console.log(subtract(10, 5));
+console.log(squared(6));
