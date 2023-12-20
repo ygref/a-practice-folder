@@ -88,7 +88,17 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // Write a method that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the method and print the result.
 
-function combineStrings(string1, string2, string3) {
-  return string1 + " " + string2 + " " + string3;
+// function combineStrings(string1, string2, string3) {
+//   return string1 + " " + string2 + " " + string3;
+// }
+// console.log(combineStrings("hi", "how", "are"));
+
+// Write a method that takes in a number and returns the number as a string. Then run the method and print the result.
+
+function stringify(number) {
+  return number.toString();
 }
-console.log(combineStrings("hi", "how", "are"));
+
+console.log(stringify(4));
+
+console.log(typeof stringify(4));
