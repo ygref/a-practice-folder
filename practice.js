@@ -73,7 +73,15 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // Write a method that takes in a number and returns the number times itself. Then run the method and print the result.
 
-function squared(number) {
-  return number * number;
+// function squared(number) {
+//   return number * number;
+// }
+// console.log(squared(6));
+
+// Write a method that takes in a string and returns the first letter of the string. Then run the method and print the result.
+
+function firstLetter(string) {
+  return string[0];
 }
-console.log(squared(6));
+
+console.log(firstLetter("First"));
