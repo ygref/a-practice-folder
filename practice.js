@@ -80,8 +80,15 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // Write a method that takes in a string and returns the first letter of the string. Then run the method and print the result.
 
-function firstLetter(string) {
-  return string[0];
-}
+// function firstLetter(string) {
+//   return string[0];
+// }
 
-console.log(firstLetter("First"));
+// console.log(firstLetter("First"));
+
+// Write a method that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the method and print the result.
+
+function combineStrings(string1, string2, string3) {
+  return string1 + " " + string2 + " " + string3;
+}
+console.log(combineStrings("hi", "how", "are"));
