@@ -112,7 +112,15 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // Write a method that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the method and print the result.
 
-function average(number1, number2, number3) {
-  return (number1 + number2 + number3) / 3;
+// function average(number1, number2, number3) {
+//   return (number1 + number2 + number3) / 3;
+// }
+// console.log(average(1, 2, 3));
+
+// Write a method that takes in a number and returns the number times 10 plus 30. Then run the method and print the result.
+
+function algo(number) {
+  return number * 10 + 30;
 }
-console.log(average(1, 2, 3));
+
+console.log(algo(5));
