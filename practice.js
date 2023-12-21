@@ -119,8 +119,22 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // Write a method that takes in a number and returns the number times 10 plus 30. Then run the method and print the result.
 
-function algo(number) {
-  return number * 10 + 30;
+// function algo(number) {
+//   return number * 10 + 30;
+// }
+
+// console.log(algo(5));
+
+// Write a Song class with attributes for name, artist, and duration.
+
+class Song {
+  constructor(name, artist, duration) {
+    this.name = name;
+    this.artist = artist;
+    this.duration = duration;
+  }
 }
 
-console.log(algo(5));
+var song = new Song("What's my Age again?", "Blink 182", "4:00");
+
+console.log(song);
