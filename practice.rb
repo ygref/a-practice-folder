@@ -236,8 +236,20 @@ original_array = [1, 2, 3, 4, 5]
 
 # Write a method that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the method and print the result.
 
-def average(number1, number2, number3)
-  return (number1 + number2 + number3) / 3.0
+# def average(number1, number2, number3)
+#   return (number1 + number2 + number3) / 3.0
+# end
+
+# puts average(100, 50, 75)
+
+class Song
+  def initialize(name, artist, duration)
+    @name = name
+    @artist = artist
+    @duration = duration
+  end
 end
 
-puts average(100, 50, 75)
+song = Song.new("What's my age again?", "Blink 182", "4:00")
+
+pp song
