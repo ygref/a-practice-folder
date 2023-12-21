@@ -105,7 +105,14 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // Write a method that takes in a string and returns the string repeated 5 times. Then run the method and print the result.
 
-function five(string) {
-  return string.repeat(5);
+// function five(string) {
+//   return string.repeat(5);
+// }
+// console.log(five("hello"));
+
+// Write a method that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the method and print the result.
+
+function average(number1, number2, number3) {
+  return (number1 + number2 + number3) / 3;
 }
-console.log(five("hello"));
+console.log(average(1, 2, 3));
