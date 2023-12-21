@@ -95,10 +95,17 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // Write a method that takes in a number and returns the number as a string. Then run the method and print the result.
 
-function stringify(number) {
-  return number.toString();
+// function stringify(number) {
+//   return number.toString();
+// }
+
+// console.log(stringify(4));
+
+// console.log(typeof stringify(4));
+
+// Write a method that takes in a string and returns the string repeated 5 times. Then run the method and print the result.
+
+function five(string) {
+  return string.repeat(5);
 }
-
-console.log(stringify(4));
-
-console.log(typeof stringify(4));
+console.log(five("hello"));
