@@ -127,14 +127,26 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // Write a Song class with attributes for name, artist, and duration.
 
-class Song {
-  constructor(name, artist, duration) {
-    this.name = name;
-    this.artist = artist;
-    this.duration = duration;
+// class Song {
+//   constructor(name, artist, duration) {
+//     this.name = name;
+//     this.artist = artist;
+//     this.duration = duration;
+//   }
+// }
+
+// var song = new Song("What's my Age again?", "Blink 182", "4:00");
+
+// console.log(song);
+
+// Write a Rectangle class with attributes for width and height.
+
+class Rectangle {
+  constructor(width, height) {
+    this.width = width;
+    this.height = height;
   }
 }
 
-var song = new Song("What's my Age again?", "Blink 182", "4:00");
-
-console.log(song);
+var rekt = new Rectangle(5, 10);
+console.log(rekt);
