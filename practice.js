@@ -153,9 +153,25 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // Write a while loop to print the numbers 1 through 10.
 
-var number = 1;
+// var number = 1;
 
-while (number <= 10) {
+// while (number <= 10) {
+//   console.log(number);
+//   number = number + 1;
+// }
+
+// Write a while loop that prints the word "hello" 5 times.
+
+// var five = 0;
+// while (five < 5) {
+//   console.log("hello");
+//   five = five + 1;
+// }
+
+// Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
+
+var number = 0;
+while (number <= 100) {
   console.log(number);
-  number = number + 1;
+  number = number + 5;
 }
