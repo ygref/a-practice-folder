@@ -141,12 +141,21 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // Write a Rectangle class with attributes for width and height.
 
-class Rectangle {
-  constructor(width, height) {
-    this.width = width;
-    this.height = height;
-  }
-}
+// class Rectangle {
+//   constructor(width, height) {
+//     this.width = width;
+//     this.height = height;
+//   }
+// }
 
-var rekt = new Rectangle(5, 10);
-console.log(rekt);
+// var rekt = new Rectangle(5, 10);
+// console.log(rekt);
+
+// Write a while loop to print the numbers 1 through 10.
+
+var number = 1;
+
+while (number <= 10) {
+  console.log(number);
+  number = number + 1;
+}
