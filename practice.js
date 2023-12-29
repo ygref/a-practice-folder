@@ -178,10 +178,25 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // Write a while loop that prints the number 9000 ten times.
 
-var number = 9000;
-var index = 0;
+// var number = 9000;
+// var index = 0;
 
-while (index <= 10) {
-  console.log(number);
-  index = index + 1;
+// while (index <= 10) {
+//   console.log(number);
+//   index = index + 1;
+// }
+
+// Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
+
+// var array = [1, 2, 3, 4];
+
+// array.push(5);
+
+// console.log(array);
+
+function push(array, pushedNumber) {
+  array.push(pushedNumber);
+  return array;
 }
+
+console.log(push((usedArray = [1, 2, 3, 4]), (usedNumber = 5)));

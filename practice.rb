@@ -242,14 +242,27 @@ original_array = [1, 2, 3, 4, 5]
 
 # puts average(100, 50, 75)
 
-class Song
-  def initialize(name, artist, duration)
-    @name = name
-    @artist = artist
-    @duration = duration
+# class Song
+#   def initialize(name, artist, duration)
+#     @name = name
+#     @artist = artist
+#     @duration = duration
+#   end
+# end
+
+# song = Song.new("What's my age again?", "Blink 182", "4:00")
+
+# pp song
+
+def greatest_difference(arr)
+  max_diff = 0
+  arr.each_with_index do |num1, i|
+    arr[i + 1..-1].each do |num2|
+      diff = num2 - num1
+      max_diff = diff if diff > max_diff
+    end
   end
+  max_diff
 end
 
-song = Song.new("What's my age again?", "Blink 182", "4:00")
-
-pp song
+puts greatest_difference([1, 2, 3, 4, 5, 10, 20, 50, 100])
