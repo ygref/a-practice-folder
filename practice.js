@@ -194,9 +194,22 @@ const { endpoint } = require("mtgsdk/src/config");
 
 // console.log(array);
 
-function push(array, pushedNumber) {
-  array.push(pushedNumber);
-  return array;
-}
+// function push(array, pushedNumber) {
+//   array.push(pushedNumber);
+//   return array;
+// }
 
-console.log(push((usedArray = [1, 2, 3, 4]), (usedNumber = 5)));
+// console.log(push((usedArray = [1, 2, 3, 4]), (usedNumber = 5)));
+
+// var number = 1;
+// while (number <= 10) {
+//   console.log(number);
+//   number = number + 1;
+// }
+
+var count = 0;
+
+while (count < 5) {
+  console.log("hello");
+  count += 1;
+}
