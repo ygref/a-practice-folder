@@ -287,3 +287,11 @@
 // var number2 = 2;
 
 // console.log(number1 + number2);
+
+// var word = "word";
+
+// console.log(word.split("").reverse().join(""));
+
+// var number = 5;
+
+// console.log(number * 10);
