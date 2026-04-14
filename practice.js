@@ -295,3 +295,25 @@
 // var number = 5;
 
 // console.log(number * 10);
+
+// var word1 = "hello";
+// var word2 = "world";
+
+// console.log(word1 + " " + word2);
+
+// var word = "count";
+
+// console.log(word.length);
+
+// var number = 19.99;
+
+// console.log(parseInt(number));
+
+// var number1 = 5;
+// var number2 = 10;
+
+// console.log(number1 * number2);
+
+// var word = "HELLO";
+
+// console.log(word.toLowerCase());
