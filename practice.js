@@ -4,7 +4,7 @@
 //   number = number + 5;
 // }
 
-const { endpoint } = require("mtgsdk/src/config");
+// const { endpoint } = require("mtgsdk/src/config");
 
 // var count = 0;
 // while (count <= 144) {
@@ -207,9 +207,83 @@ const { endpoint } = require("mtgsdk/src/config");
 //   number = number + 1;
 // }
 
-var count = 0;
+// var count = 0;
 
-while (count < 5) {
-  console.log("hello");
-  count += 1;
-}
+// while (count < 5) {
+//   console.log("hello");
+//   count += 1;
+// }
+
+// var number = 1;
+
+// while (number <= 10) {
+//   console.log(number);
+//   number = number + 1;
+// }
+
+// var number = 50;
+// while (number <= 70) {
+//   console.log(number);
+//   number = number + 1;
+// }
+
+// var times = 0;
+// while (times <= 144) {
+//   console.log("Around the World" + times);
+//   times = times + 1;
+// }
+
+// while (true) {
+//   var input = prompt("Enter text");
+//   if (input.length < 5) {
+//     break;
+//   }
+// }
+
+// var even = 2;
+
+// while (even <= 40) {
+//   console.log(even);
+//   even = even + 2;
+// }
+
+// var numbers = [1, 2, 3];
+// var newNumbers = [];
+// var index = 0;
+// while (index < numbers.length) {
+//   var number = numbers[index];
+//   newNumbers.push(number * 3);
+//   index = index + 1;
+// }
+// console.log(newNumbers);
+
+// var age = 12;
+// var time = 6;
+// var ticketPrice;
+
+// if (age <= 12) {
+//   ticketPrice = 5;
+// } else if (age >= 13 && age <= 59) {
+//   if (time < 18) {
+//     ticketPrice = 7;
+//   } else {
+//     ticketPrice = 10;
+//   }
+// } else if (age >= 60) {
+//   ticketPrice = 7;
+// }
+
+// var number = 20;
+// var sum = number + 10;
+
+// console.log(sum);
+
+// var lowercase = "hello";
+// var uppercase = lowercase.toUpperCase();
+
+// console.log(uppercase);
+
+// var number1 = 1;
+// var number2 = 2;
+
+// console.log(number1 + number2);
