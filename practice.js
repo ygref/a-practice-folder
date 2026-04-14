@@ -317,3 +317,33 @@
 // var word = "HELLO";
 
 // console.log(word.toLowerCase());
+
+// var firstName = "John";
+// var lastName = "Smith";
+
+// console.log(firstName + " " + lastName);
+
+// var firstName = "John";
+// var lastName = "Smith";
+
+// console.log(`${firstName} ${lastName}`);
+
+// var word = window.prompt("Enter a word");
+
+// if (word === "Marco") {
+//   console.log("Polo");
+// }
+
+// var input = window.prompt("Enter a word");
+
+// if (input !== "Santa") {
+//   console.log("You're not Santa!");
+// }
+
+// var password = window.prompt("Enter a password");
+
+// if (password === "Joshua") {
+//   console.log("Want to play a game?");
+// } else {
+//   console.log("Access denied");
+// }
